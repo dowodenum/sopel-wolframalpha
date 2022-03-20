@@ -1,5 +1,6 @@
 # sopel-wolframalpha
 Sopel IRC bot plugin to query Wolfram Alpha.
+
 Ported from [oddluck/limnoria-plugins](https://github.com/oddluck/limnoria-plugins/tree/master/WolframAlpha).
 
 ### Setup
@@ -28,6 +29,7 @@ maxOutput = 3
 ### Usage
 
 From the IRC channel you configured in the last step (adjust from `.` to your bot's configured prefix)...
+
 The first line must be performed by a bot admin (you):
 ```
 <you> /msg bot .load wolframalpha
